@@ -1,0 +1,81 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "sources": "src",
+    "tests": "test",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "C:\\Users\\laure\\Documents\\GitHub\\testticket\\src\\Inheritee.sol": {
+      "lastModificationDate": 1659055302386,
+      "contentHash": "053268b05ca2046275901ba6f42335c9",
+      "sourceName": "src\\Inheritee.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {}
+    },
+    "C:\\Users\\laure\\Documents\\GitHub\\testticket\\src\\Inheritor.sol": {
+      "lastModificationDate": 1659055209065,
+      "contentHash": "13e3062a269befb5866535cffdbe7a9d",
+      "sourceName": "src\\Inheritor.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "src\\Inheritee.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {}
+    }
+  }
+}
